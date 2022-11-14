@@ -43,7 +43,7 @@ Se estiver tudo certo, seu postman deve parecer com isso
 
 Agora basta apertar em "send" e esperar a resposta da API
 
-Quando a API responder, você deve ver algo parecido com isso
+Quando a API responder, você deve ver algo parecido com isso. A API retorna os bytes do arquivo, por isso a resposta pode parecer um pouco estranha.
 
 ![postman4](https://github.com/MMaues/api_excel/blob/main/img/postman4.png?raw=true)
 
