@@ -29,23 +29,23 @@ A primeira coisa que precisa ser feita para conseguir uma resposta da API é uma
 
 Abra o postman e você deve ver uma tela parecida com essa
 
-![image](https://user-images.githubusercontent.com/49196652/201551964-3cdeaa58-f0b5-46b3-a856-e3ef59384411.png)
+![postman](https://github.com/MMaues/api_excel/blob/main/img/postman1.png?raw=true)
 
 Altere GET para POST e insira a seguinte URL ```http://{{ip da sua máquina:porta}}/api/modificadorexcel``` para ficar da seguinte forma
 
-![image](https://user-images.githubusercontent.com/49196652/201552277-e48c1cba-b61b-4645-a1e4-574dc61b6fbd.png)
+![postman2](https://github.com/MMaues/api_excel/blob/main/img/postman2.png?raw=true)
 
 Escolha a opção "Body" -> "form-data" e altere o tipo do campo para "file". Nomeie como excel_notas e insira o arquivo das notas de excel presentes neste GitHub.
 
 Se estiver tudo certo, seu postman deve parecer com isso
 
-![image](https://user-images.githubusercontent.com/49196652/201552644-605c3538-c449-4542-a200-7a03e8156c5b.png)
+![postman3](https://github.com/MMaues/api_excel/blob/main/img/postman3.png?raw=true)
 
 Agora basta apertar em "send" e esperar a resposta da API
 
 Quando a API responder, você deve ver algo parecido com isso
 
-![image](https://user-images.githubusercontent.com/49196652/201553087-953bf074-0136-4679-8bf2-8cfbc9b12f81.png)
+![postman4](https://github.com/MMaues/api_excel/blob/main/img/postman4.png?raw=true)
 
 Basta apertar em "save response", "save to file" e escolher o local onde salvar. 
 
