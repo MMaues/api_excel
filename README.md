@@ -1,4 +1,4 @@
-# Sistema distribuidos e computação gráfica - API REST/RESTful
+# Sistema distribuidos e computação paralela  - API REST/RESTful
 ## Alunos:
 * João Francisco Ramacciotti Sieiro
 * José Augusto Barros Minhoto
