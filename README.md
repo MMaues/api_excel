@@ -16,7 +16,9 @@ Esta POC tem como finalidade, separar um arquivo Excel que contenha notas, nomes
 ### Requisitos
 *	Visual Studio Code
 *	Python 3 ou superior
-*	As bibliotecas flask, flask-restful e pandas. Para isso, abra o terminal e digite ```pip install flask flask-restful pandas openpyxl xlwt```, para instalar as bibliotecas respectivamente.
+*	As bibliotecas flask, flask-restful e pandas. Para isso, abra o terminal e digite ```sh 
+pip install flask flask-restful pandas openpyxl xlwt``` 
+para instalar as bibliotecas respectivamente.
 
 Abra o código com o VSCode e vá para o arquivo app.py e o execute. Um terminal deve abrir, informando que está tudo ok e mostrando o ip da sua máquina assim como a porta que a API está rodando.
 
@@ -47,8 +49,6 @@ Quando a API responder, você deve ver algo parecido com isso. A API retorna os 
 
 ![postman4](https://github.com/MMaues/api_excel/blob/main/img/postman4.png?raw=true)
 
-Basta apertar em "save response", "save to file" e escolher o local onde salvar. 
-
-Agora basta abrir o arquivo para perceber que ele está organizado por professor e aluno.
+Agora é só apertar em "save response", "save to file" e escolher o local onde salvar. 
 
 
