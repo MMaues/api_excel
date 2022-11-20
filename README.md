@@ -31,7 +31,7 @@ Abra o postman e você deve ver uma tela parecida com essa
 
 ![postman](https://github.com/MMaues/api_excel/blob/main/img/postman1.png?raw=true)
 
-Altere GET para POST e insira a seguinte URL ```http://{{ip da sua máquina:porta}}/api/modificadorexcel``` para ficar da seguinte forma
+Altere GET para POST e insira a seguinte URL ```http://{{ip da sua máquina:porta}}/v1/api/modificadorexcel``` para ficar da seguinte forma
 
 ![postman2](https://github.com/MMaues/api_excel/blob/main/img/postman2.png?raw=true)
 
