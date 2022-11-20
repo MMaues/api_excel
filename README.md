@@ -27,7 +27,7 @@ Abra o código com o VSCode e vá para o arquivo app.py e o execute. Um terminal
 ## Etapa 2 - Mandando um "request"
 
 ### Requisitos
-*	Postman
+*	[Postman]([url](https://www.postman.com))
 
 A primeira coisa que precisa ser feita para conseguir uma resposta da API é uma maneira de mandar um “request” para ela, seja com outra API ou com algum programa externo. Para essa demonstração utilizaremos um programa chamado de “Postman”.
 
@@ -43,7 +43,11 @@ para ficar da seguinte forma
 
 ![postman2](https://github.com/MMaues/api_excel/blob/main/img/postman2.png?raw=true)
 
-Escolha a opção "Body" -> "form-data" e altere o tipo do campo para "file". Nomeie como excel_notas e insira o arquivo das notas de excel presentes neste GitHub.
+Escolha a opção "Body" -> "form-data" e altere o tipo do campo para "file". 
+
+![postman2](https://github.com/MMaues/api_excel/blob/main/img/tipo.png?raw=true)
+
+Nomeie como excel_notas e insira o arquivo das notas de excel presentes neste GitHub.
 
 Se estiver tudo certo, seu postman deve parecer com isso
 
@@ -51,7 +55,7 @@ Se estiver tudo certo, seu postman deve parecer com isso
 
 Aperte em "send" para enviar o request e espere a resposta da API
 
-Quando a API responder, você deve ver algo parecido com isso. A API retorna os bytes do arquivo, por isso a resposta pode parecer um pouco estranha.
+A API retorna os bytes do arquivo, por isso a resposta pode parecer um pouco estranha.
 
 ![postman4](https://github.com/MMaues/api_excel/blob/main/img/postman4.png?raw=true)
 
