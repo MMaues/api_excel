@@ -4,6 +4,7 @@ from flask_restful import Resource, Api
 from src.editorExcel import EditarExcel
 import zipfile
 import pathlib
+import os
 
 
 app = Flask(__name__)
@@ -15,8 +16,12 @@ class app_main(Resource):
     def modificar_excel(*self):
         response_excel: bytes = request.files["excel_notas"]
         notas_df: pd.DataFrame = pd.read_excel(response_excel)
-        
+
+        if not os.path.exists("files/"):
+            os.makedirs("files/")
+            
         directory = pathlib.Path("files/")
+
         classe = EditarExcel()
         excel = classe.main(notas_df)
         
