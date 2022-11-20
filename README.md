@@ -16,7 +16,8 @@ Esta POC tem como finalidade, separar um arquivo Excel que contenha notas, nomes
 ### Requisitos
 *	Visual Studio Code
 *	Python 3 ou superior
-*	As bibliotecas flask, flask-restful e pandas. Para isso, abra o terminal e digite ```sh 
+*	As bibliotecas flask, flask-restful e pandas. Para isso, abra o terminal e digite 
+*	```sh 
 pip install flask flask-restful pandas openpyxl xlwt``` 
 para instalar as bibliotecas respectivamente.
 
