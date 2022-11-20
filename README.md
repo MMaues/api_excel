@@ -49,12 +49,12 @@ Se estiver tudo certo, seu postman deve parecer com isso
 
 ![postman3](https://github.com/MMaues/api_excel/blob/main/img/postman3.png?raw=true)
 
-Agora basta apertar em "send" e esperar a resposta da API
+Aperte em "send" para enviar o request e espere a resposta da API
 
 Quando a API responder, você deve ver algo parecido com isso. A API retorna os bytes do arquivo, por isso a resposta pode parecer um pouco estranha.
 
 ![postman4](https://github.com/MMaues/api_excel/blob/main/img/postman4.png?raw=true)
 
-Agora é só apertar em "save response", "save to file" e escolher o local onde salvar. 
+Aperte em "save response", "save to file" e escolha o local onde salvar. 
 
 
