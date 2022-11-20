@@ -1,5 +1,5 @@
 import pandas as pd
-from flask import Flask, request, Response
+from flask import Flask, request, Response, send_file
 from flask_restful import Resource, Api
 from src.editorExcel import EditarExcel
 import zipfile
@@ -24,7 +24,7 @@ class app_main(Resource):
             for file_path in directory.iterdir():
                 archive.write(file_path, arcname=file_path.name)
                 
-        return Response(excel, 200)
+        return send_file("notas.zip",as_attachment = True)
            
     
 if __name__ == "__main__":    
